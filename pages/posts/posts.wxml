@@ -1,0 +1,20 @@
+<import src="posts_item/posts_item.wxml" />
+<view>
+  <swiper indicator-dots="true" indicator-color="#ddd" autoplay="true">
+    <swiper-item>
+      <image src="/images/post/xiaolong.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/bl.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/post/cat.png"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{ContentListArray}}">
+      <view class="post-contain"  catchtap='onPosts' data-postsID="{{item.postsId}}"> 
+          <template is="postsItem" data="{{...item}}"/>
+      </view>
+  </block>
+
+</view>

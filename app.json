@@ -1,0 +1,14 @@
+{
+  "pages":[
+    
+    "pages/welcome/welcome",
+    "pages/posts/posts",
+    "pages/posts/posts_Detali/posts_Detali"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTextStyle":"black",
+    "navigationBarBackgroundColor":"#b3d4bd"
+    }
+    
+}

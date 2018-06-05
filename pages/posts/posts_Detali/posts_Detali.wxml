@@ -1,0 +1,4 @@
+<!--pages/posts/posts_Detali/posts_Detali.wxml-->
+<view>
+  <text>详情页面</text>
+</view>
