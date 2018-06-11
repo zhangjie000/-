@@ -1,20 +1,47 @@
 // pages/posts/posts_Detali/posts_Detali.js
+var postsData = require("../../../data/posts_data.js")
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
-  },
+    var postsData1 = postsData.contetn[options.id]
+    this.setData({
+      postsId: options.id
+    })
+    this.setData({ postsData: postsData1 })
+    var postsCollected=wx.getStorageSync("postsCollected")
+    if (postsCollected){
+      var postsCollected = postsCollected[options.id]
+      this.setData({
+        collected: postsCollected
+      })
+    }else {
+      var postsCollected={};
+      postsCollected[options.id]=false;
+      wx.getStorageSync("postsCollected", postsCollected);
+    }
 
+  },
+  onCollctedTap:function (event) {
+  
+    var postsCollected = wx.getStorageSync("postsCollected");
+    var postsCollected = postsCollected[this.data.postsId];
+    // console.log(postsCollected)
+    postsCollected = !postsCollected;
+    postsCollected[this.data.postsId] = postsCollected;
+    wx.setStorageSync(postsCollected, postsCollected)
+    this.setData({ collected:postsCollected})
+  },
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -8,6 +8,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc:"/images/post/crab.png",
+    author: "郑三",
+    dateTime: "1天前",
+    detail:"正文内容",
     postsId:0
   },
   {
@@ -18,6 +22,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/bl.png",
+    author: "张三",
+    dateTime: "1天前",
+    detail: "正文内容",
     postsId: 1
   }, {
     image1: "/images/avatar/1.png",
@@ -27,6 +35,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/sls.jpg",
+    author: "栗子",
+    dateTime: "1天前",
+    detail: "正文内容",
     postsId: 2
   },
   {
@@ -37,6 +49,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/cat.png",
+    author: "麻子",
+    dateTime: "1天前",
+    detail: "正文内容",
     postsId: 3
   }, {
     image1: "/images/avatar/1.png",
@@ -46,6 +62,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/vr.png",
+    author: "王五",
+    dateTime: "1天前",
+    detail: "正文内容",
     postsId: 4
   },
   {
@@ -56,6 +76,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/bl.png",
+    author: "五险",
+    dateTime: "3天前",
+    detail: "正文内容",
     postsId: 5
   }, {
     image1: "/images/avatar/1.png",
@@ -65,6 +89,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/sls.jpg",
+    author: "五险",
+    dateTime: "1天前",
+    detail: "正文内容",
     postsId: 6
   },
   {
@@ -75,6 +103,10 @@ var ContentList = [
     content: "本文档将带你一步步创建完成一个微信小程序，并可以在手机上体验该小程序的实际效果。这个小程序的首页将会显示欢迎语以及当前用户的微信头像，点击头像",
     linkFont1: 12,
     linkFont2: 56,
+    headerImagSrc: "/images/post/vr.png",
+    author: "妈妈",
+    dateTime: "2天前",
+    detail: "正文内容",
     postsId: 7
   }
 ]

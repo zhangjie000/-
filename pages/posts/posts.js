@@ -7,7 +7,7 @@ Page({
   onPosts:function (event){
     var postsId = event.currentTarget.dataset.postsid;
     wx.navigateTo({
-      url: '/pages/posts/posts_Detali/posts_Detali',
+      url: '/pages/posts/posts_Detali/posts_Detali?id=' + postsId,
     })
   },
   onLoad:function(options){
