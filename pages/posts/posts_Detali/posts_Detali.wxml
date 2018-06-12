@@ -6,7 +6,7 @@
   <view class="author_date">
     <image class="author_img" src="/images/avatar/2.png"></image>
     <text class="author">{{postsData.author}}</text>
-    <text class="const">发表于胡歌</text>
+    <text class="const">发表于 ss胡歌</text>
     <text class="const">{{postsData.dateTime}}</text>
   </view>
   <text class="title">{{postsData.title}}</text>
