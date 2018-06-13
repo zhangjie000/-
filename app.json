@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/welcome/welcome",
+  
     "pages/posts/posts",
     "pages/posts/posts_Detali/posts_Detali"
   ],
